@@ -1,0 +1,65 @@
+img {
+  width: 30px;
+
+}
+.buttons {
+  display: inline-block;
+}
+body {
+  background-color: gray;
+}
+.hamburger {
+  display: none;
+}
+/*Tablet - Portrait */
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: rgb(158, 226, 15);
+  }
+
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgba(15, 219, 226, 0.51);
+  }
+
+}
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: rgb(177, 15, 226);
+}
+    .buttons {
+      display: none;
+    }
+    .hamburger {
+      display: block;
+    }
+
+  }
+
+
+@media only screen and (max-width: 320px) {
+  body {
+    background-color:  rgb(66, 154, 83);
+  }
+  .buttons {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+/*
+320 px—Mobile portrait
+480 px—Mobile landscape
+600 px—Small tablet
+768 px—Tablet portrait
+1024 px—Tablet landscape & Laptop
+1280 px and up—Desktop
+*/
